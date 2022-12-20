@@ -1,0 +1,223 @@
+/* Contacts & nav & Under nav section */
+
+/* Contacts section*/
+
+.contacts-wrapper {
+  width: 100%;
+  min-height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.contacts-wrapper .contacts {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 10%;
+  top: -10px;
+}
+.contacts-wrapper .contacts a {
+  color: #fff;
+}
+.contacts-wrapper .contacts ul {
+  margin-left: 60px;
+}
+.contacts-wrapper .contacts li {
+  margin-left: 30px;
+  padding-right: 20px;
+  border-right: 1px solid #fff;
+}
+.contacts-wrapper .contacts li:nth-child(3) {
+  border-right: none;
+}
+.contacts-wrapper .contacts li:hover a {
+  border-bottom: 1px solid #fff;
+}
+.contacts-wrapper .social {
+  position: relative;
+  display: flex;
+  margin-right: 10%;
+  top: -10px;
+}
+.contacts-wrapper .social a {
+  margin-left: 30px;
+  font-size: 19px;
+}
+.contacts-wrapper .social a:first-child {
+  margin-left: 0px;
+}
+/* nav section */
+
+.nav-wrapper {
+  width: 90%;
+  min-height: 70px;
+  position: relative;
+  top: -30px;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  background-color: #252531;
+  padding: 0px 10px;
+  transition: hieght 500ms ease-in-out;
+}
+.nav-wrapper nav {
+  display: flex;
+  width: 100%;
+  transition: hieght 500ms ease-in-out;
+}
+.nav-wrapper nav ul {
+  display: flex;
+  margin-left: 60%;
+}
+@media screen and (max-width: 1440px) {
+  .nav-wrapper nav ul {
+    margin-left: 57%;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .nav-wrapper nav ul {
+    margin-left: 53%;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .nav-wrapper nav ul {
+    margin-left: 48%;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .nav-wrapper nav ul {
+    margin-left: 45%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .nav-wrapper nav ul {
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .nav-wrapper nav ul {
+    margin-left: -30%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .nav-wrapper nav ul {
+    margin-left: 43%;
+  }
+}
+.nav-wrapper nav ul li {
+  margin-left: 30px;
+  font-size: 17px;
+  transition: all 0.2s ease-in-out;
+}
+.nav-wrapper nav ul li.active {
+  color: #dfb15b;
+}
+.nav-wrapper nav ul li:hover {
+  color: #dfb15b;
+  cursor: pointer;
+}
+.nav-wrapper h1 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.nav-wrapper h1::first-letter {
+  color: #dfb15b;
+}
+.nav-wrapper #nav-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.nav-wrapper label {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 980px) {
+  .nav-wrapper nav {
+    /* height: auto; */
+    display: none;
+    transition: height 500ms ease-in;
+  }
+  .nav-wrapper label {
+    display: block;
+  }
+  .nav-wrapper nav ul {
+    position: absolute;
+    display: block;
+    top: 55px;
+    margin-left: 0%;
+  }
+  .nav-wrapper nav ul li {
+    margin-bottom: 10px;
+  }
+  .nav-wrapper input#nav-menu:checked ~ nav {
+    display: flex;
+    height: 260px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .contacts-wrapper .social a:last-child {
+    display: none;
+  }
+}
+/* Under nav Section */
+
+.under-nav-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.under-nav-wrapper .under-nav-item {
+  position: relative;
+  display: flex;
+  margin-right: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.under-nav-wrapper .under-nav-item:last-child {
+  margin-right: 0%;
+}
+.under-nav-wrapper .under-nav-item .icon {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
+.under-nav-wrapper .under-nav-item i {
+  color: #dfb15b;
+  font-size: 58px;
+}
+.under-nav-wrapper .under-nav-item h3 {
+  color: black;
+  display: inline;
+  margin-left: 20px;
+}
+
+.under-nav-wrapper .under-nav-item p {
+  color: black;
+  margin-left: 20px;
+}
+@media screen and (max-width: 820px) {
+  .under-nav-wrapper {
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .under-nav-wrapper .under-nav-item {
+    margin-bottom: 30px;
+    margin-left: 5%;
+  }
+}

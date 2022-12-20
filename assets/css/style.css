@@ -1,0 +1,27 @@
+@import "_contact.css";
+@import "_slider.css";
+@import "_experience.css";
+@import "_service.css";
+@import "_choose.css";
+@import "_gallery.css";
+@import "_team.css";
+@import "_testimonial.css";
+@import "_blog.css";
+@import "_footer.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+ul,
+li,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "montserrar", sans-serif;
+}

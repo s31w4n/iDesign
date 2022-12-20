@@ -1,0 +1,126 @@
+/* service */
+.service-container {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.service {
+  width: 35%;
+  margin-left: 2.5%;
+}
+.service h6 {
+  color: #dfb15b;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.service .service-title {
+  color: #252531;
+  font-size: 28px;
+  position: relative;
+  padding-left: 70px;
+  margin: 20px 0;
+}
+.service .service-title::before {
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #dfb15b;
+  top: 10px;
+  left: 0;
+}
+.service p {
+  color: #777777;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.service .btn {
+  width: 150px;
+  padding: 15px 8px;
+  color: #252531;
+  background-color: #dfbe82;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 100px;
+  transition: all 0.3s ease-in-out;
+}
+.service .btn:hover {
+  background-color: #dda53d;
+  cursor: pointer;
+}
+.service-items {
+  min-height: 400px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.service-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  background-color: #f3f6ff;
+  padding: 30px 0px;
+  width: 25%;
+}
+.service-item:hover {
+  cursor: pointer;
+}
+.service-item h1 img {
+  width: 100px;
+  height: 100px;
+}
+.service-item h3 {
+  color: #252531;
+  margin-bottom: 10px;
+}
+.service-item p {
+  color: #777777;
+  text-align: center;
+  width: 70%;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 1190px) {
+  .service-container {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .service {
+    width: 90%;
+    margin-left: 5%;
+    height: 250px;
+  }
+  .service-items {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .service-item {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 870px) {
+  .service-item p {
+    display: none;
+  }
+}
+@media screen and (max-width: 675px) {
+  .service-item h3 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .service-item h3 {
+    font-size: 14px;
+  }
+}

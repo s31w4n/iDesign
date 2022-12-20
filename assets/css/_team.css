@@ -1,0 +1,115 @@
+/* team */
+.team-container {
+  width: 100%;
+  min-height: 400px;
+  background-color: #f3f6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.team-container .team-left {
+  width: 20%;
+  min-height: 400px;
+  background-color: #dfb15b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team-container .team-left h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.team-container .team-left h1 {
+  color: #252531;
+  text-align: center;
+}
+.team-container .team-right {
+  width: 70%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.team-container .team-right .team-card {
+  width: 240px;
+  height: auto;
+  margin: 15px;
+  background-color: #252531;
+}
+.team-container .team-right .team-card .team-card-header {
+  height: auto;
+  margin-bottom: 0;
+}
+.team-container .team-right .team-card .team-card-header .img-hvr-icon img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dfb15b;
+  padding: 5px;
+  margin-top: 10px;
+}
+.team-container .team-right .team-card .team-card-body {
+  background-color: #252531;
+  width: auto;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.team-container .team-right .team-card .team-card-body h3 {
+  color: #f1efef;
+}
+.team-container .team-right .team-card .team-card-body h6 {
+  font-size: 14px;
+  margin-top: 10px;
+  letter-spacing: 1px;
+  color: #969292;
+}
+@media screen and (max-width: 920px) {
+  .team-container .team-right .team-card .team-card-header figcaption h3 {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 880px) {
+  .team-container {
+    flex-direction: column;
+  }
+  .team-container .team-left {
+    width: 90%;
+  }
+  .team-container .team-right {
+    width: 90%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 730px) {
+  .team-container .team-right .team-card .team-card-header figcaption h3 {
+    font-size: 10px;
+  }
+  .team-container .team-right .team-card .team-card-header .img-hvr-icon img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #dfb15b;
+    padding: 5px;
+    margin-top: 10px;
+  }
+  .team-container .team-right .team-card .team-card-body h6 {
+    font-size: 12px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #969292;
+  }
+  .team-container .team-right .team-card .team-card-body h3 {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .team-container .team-right .team-card .team-card-body h3 {
+    font-size: 13px;
+  }
+}

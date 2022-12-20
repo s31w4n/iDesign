@@ -1,0 +1,112 @@
+/* footer */
+footer {
+  width: 100%;
+  min-height: 500px;
+  background-color: #181818;
+  padding-top: 100px;
+}
+.f-items {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.f-items .f-item {
+  margin-right: 30px;
+  width: 20%;
+}
+.f-items .f-item h4 {
+  color: #dda53d;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.f-items .f-item .f-item-sub {
+  margin-bottom: 20px;
+}
+.f-items .f-item .f-item-sub i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.f-items .f-item .f-item-sub span {
+  font-size: 18px;
+}
+.f-items .f-item .f-icons i {
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.f-items .f-item .f-icons i:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #181818;
+}
+.f-items .f-item a::before {
+  content: "\276f";
+  margin-right: 10px;
+  color: #dfb15b;
+}
+.f-items .f-item a {
+  display: block;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.f-items .f-item input {
+  height: 40px;
+  width: 90%;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 6px 12px;
+  color: #181818;
+  font-size: 18px;
+}
+::placeholder {
+  font-size: 18px;
+}
+.f-items .f-item button {
+  height: 40px;
+  width: 90%;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 6px 12px;
+  color: #181818;
+  font-size: 18px;
+  background-color: #dfb15b;
+}
+.f-items .f-item button:hover {
+  background-color: #dda53d;
+}
+.f-rights {
+  border-top: 1px solid #777777;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 1510px) {
+  .f-items {
+    flex-wrap: wrap;
+  }
+  .f-items .f-item {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 685px) {
+  .f-items {
+    flex-wrap: wrap;
+  }
+  .f-items .f-item {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+}
