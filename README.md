@@ -1,2 +1,2 @@
 # MyDesign
-### This is My pure HTML5 & CSS3 Project and i want to expand it during learning new technologies.
+### This is My first Project and i want to expand it during learning new technologies.
