@@ -95,12 +95,28 @@
     </div>
     <!-- slider -->
     <div class="slider">
-      <figure>
-        <img src="assets/img/carousel-1.jpg" alt="1" />
-        <img src="assets/img/carousel-2.jpg" alt="2" />
-        <img src="assets/img/carousel-1.jpg" alt="1" />
-      </figure>
+      <div class="mySlides fade">
+        <img src="assets/img/carousel-1.jpg" alt="slideShow" />
+        <div class="slideCaption">
+          <h4>Create Interior Design</h4>
+          <h1>Make Your Home Better</h1>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="mySlides fade">
+        <img src="assets/img/carousel-2.jpg" alt="slideShow" />
+        <div class="slideCaption">
+          <h4>Create Interior Design</h4>
+          <h1>Make Your Home Better</h1>
+          <button>Learn More</button>
+        </div>
+      </div>
+
+      <!-- Next and previos buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+
     <!-- experience -->
     <div class="exp-container">
       <div class="exp">
@@ -541,5 +557,6 @@
         <p>© iDesign. All Rights Reserved. Designed by HTML Codex</p>
       </div>
     </footer>
+    <script src="slideShow.js"></script>
   </body>
 </html>
