@@ -170,6 +170,16 @@
     display: none;
   }
 }
+@media screen and (max-width: 510px) {
+  .contacts-wrapper .social a:nth-child(4) {
+    display: none;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contacts-wrapper .contacts li:first-child {
+    margin-left: 0px;
+  }
+}
 /* Under nav Section */
 
 .under-nav-wrapper {
@@ -194,11 +204,12 @@
   height: 60px;
   width: 60px;
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 .under-nav-wrapper .under-nav-item i {
   color: #dfb15b;
-  font-size: 58px;
+  font-size: 50px;
 }
 .under-nav-wrapper .under-nav-item h3 {
   color: black;
@@ -219,5 +230,11 @@
   .under-nav-wrapper .under-nav-item {
     margin-bottom: 30px;
     margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .under-nav-wrapper .under-nav-item .icon i {
+    font-size: 45px;
   }
 }
