@@ -69,6 +69,7 @@
   line-height: 1.5;
   font-weight: 400;
   margin-bottom: 30px;
+  margin-right: 10%;
   font-size: 18px;
 }
 .cap-option-item {
@@ -90,9 +91,12 @@
 }
 .exp-cap .cap-option-item h5 {
   color: #252531;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 @media screen and (max-width: 810px) {
+  .exp-cap p {
+    margin-right: 8%;
+  }
   .exp-cap .cap-option-item h5 {
     font-size: 14px;
   }
@@ -107,5 +111,10 @@
   .exp-container .exp-cap {
     width: 90%;
     margin-left: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .exp-cap p {
+    margin-right: 5%;
   }
 }

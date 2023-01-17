@@ -219,12 +219,12 @@
   color: black;
   display: inline;
   margin-left: 20px;
-  margin-bottom: 5px;
 }
 
 .under-nav-wrapper .under-nav-item p {
   color: black;
   margin-left: 20px;
+  margin-top: 5px;
 }
 @media screen and (max-width: 820px) {
   .under-nav-wrapper {
