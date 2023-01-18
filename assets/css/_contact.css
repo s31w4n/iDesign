@@ -243,3 +243,13 @@
     font-size: 45px;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .under-nav-wrapper .under-nav-item h3 {
+    font-size: 14px;
+  }
+
+  .under-nav-wrapper .under-nav-item p {
+    font-size: 14px;
+  }
+}
