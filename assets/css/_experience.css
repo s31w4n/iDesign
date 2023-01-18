@@ -117,4 +117,21 @@
   .exp-cap p {
     margin-right: 5%;
   }
+  .exp {
+    min-height: 200px;
+  }
+  .exp .exp-icon i {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  .exp h1 {
+    font-size: 30px !important;
+    margin-bottom: 20px;
+
+  }
+  .exp h2 {
+    font-size: 18px !important;
+    margin-bottom: 18px;
+
+  }
 }
