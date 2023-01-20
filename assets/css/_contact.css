@@ -252,4 +252,11 @@
   .under-nav-wrapper .under-nav-item p {
     font-size: 14px;
   }
+  .under-nav-wrapper .under-nav-item .icon {
+    height: 40px;
+    width: 40px;
+  }
+  .under-nav-wrapper .under-nav-item .icon i {
+    font-size: 40px;
+  }
 }
