@@ -79,6 +79,14 @@
   width: 100%;
   height: 100%;
 }
-@media screen and (max-width: 850px){
-
+@media screen and (max-width: 840px){
+.choose-container .choose-left {
+  width: 90%;
+}
+.choose-container .choose-left h1 {
+font-size: 22px;
+}
+.choose-container .choose-right {
+  display: none;
+}
 }
