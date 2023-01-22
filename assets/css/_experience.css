@@ -113,6 +113,12 @@
     margin-left: 0;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .exp-cap h1.title-exp {
+    font-size: 22px;
+  }
+}
 @media screen and (max-width: 640px) {
   .exp-cap p {
     margin-right: 5%;
@@ -127,7 +133,6 @@
   .exp h1 {
     font-size: 30px !important;
     margin-bottom: 20px;
-
   }
   .exp h2 {
     font-size: 18px !important;
