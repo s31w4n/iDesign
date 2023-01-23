@@ -116,6 +116,12 @@
   .gallery .gallery-item {
     margin-bottom: 0px;
   }
+  .gallery-container .g-title {
+    width: 70%;
+  }
+  .gallery-container .g-title h1 {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 580px) {
   .gallery .gallery-item {
