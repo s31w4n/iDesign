@@ -3,13 +3,13 @@
 /* Slideshow Container */
 
 .slider {
-  max-width: 100%;
+  width: 100%;
   position: relative;
 }
 
 .mySlides img {
   width: 100%;
-  height: auto !important;
+  height: 100vh;
   filter: brightness(50%);
 }
 /* Hide the images by default */
@@ -83,12 +83,16 @@
   margin-bottom: 20px;
 }
 .slideCaption button {
-  background-color: #dcb777;
+  width: 150px;
+  padding: 15px 8px;
+  color: #252531;
+  background-color: #dfbe82;
   border: none;
-  padding: 10px 20px;
+  outline: none;
   font-size: 18px;
-  transition: all 1s ease;
-  border-radius: 3px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  transition: all 0.3s ease-in-out;
 }
 .slideCaption button:hover {
   background-color: #e1aa4c;
