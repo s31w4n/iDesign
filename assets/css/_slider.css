@@ -9,7 +9,7 @@
 
 .mySlides img {
   width: 100%;
-  height: 100vh;
+  height: auto;
   filter: brightness(50%);
 }
 /* Hide the images by default */
@@ -69,7 +69,7 @@
   top: 50%;
   right: 50%;
   transform: translate(50%, -50%);
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -90,8 +90,8 @@
   border: none;
   outline: none;
   font-size: 18px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 1rem;
+  margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
 }
 .slideCaption button:hover {
@@ -127,6 +127,12 @@
   .next {
     padding: 8px;
   }
+  .slideCaption button {
+    width: auto;
+    padding: 5px 5px;
+    font-size: 10px;
+    margin-top: 0px;
+  }
 }
 @media screen and (max-width: 500px) {
   .slideCaption h4 {
@@ -134,9 +140,6 @@
   }
   .slideCaption h1 {
     font-size: 25px;
-  }
-  .slideCaption button {
-    font-size: 8px;
   }
   .prev,
   .next {

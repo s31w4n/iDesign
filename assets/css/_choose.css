@@ -3,12 +3,13 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #f3f6ff;
   margin-bottom: 100px;
 }
 .choose-left {
-  width: 50%;
+  width: 45%;
   min-height: 100px;
   margin-left: 5%;
 }
@@ -70,21 +71,20 @@
   cursor: pointer;
 }
 .choose-right {
-  width: 50%;
+  width: 45%;
   margin-left: 20px;
 }
 .choose-right img {
   width: 100%;
-
 }
-@media screen and (max-width: 800px){
-.choose-container .choose-left {
-  width: 90%;
-}
-.choose-container .choose-left h1 {
-font-size: 22px;
-}
-.choose-container .choose-right {
-  display: none;
+@media screen and (max-width: 800px) {
+  .choose-container .choose-left {
+    width: 90%;
+  }
+  .choose-container .choose-left h1 {
+    font-size: 22px;
+  }
+  .choose-container .choose-right {
+  width: 90%
 }
 }
