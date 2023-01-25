@@ -58,7 +58,6 @@
   cursor: pointer;
 }
 .gallery {
-  margin-left: 4%;
   width: 100%;
   height: auto;
   display: flex;
