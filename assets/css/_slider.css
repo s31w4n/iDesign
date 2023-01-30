@@ -9,12 +9,12 @@
 
 .mySlides {
   width: 100%;
-  height: 100%;
   display: none;
 }
 
 .mySlides img {
   width: 100%;
+  height: 100%;
   filter: brightness(50%);
 }
 /* Hide the images by default */
