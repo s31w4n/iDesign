@@ -130,6 +130,9 @@
     font-size: 32px;
     margin-bottom: 25px;
   }
+  .exp-cap .exp-icon img {
+    margin-right: 10px;
+  }
   .exp h1 {
     font-size: 30px !important;
     margin-bottom: 20px;
