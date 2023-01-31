@@ -45,6 +45,12 @@
   margin-left: 30px;
   font-size: 19px;
 }
+.contacts-wrapper .social a i {
+  transition: all 0.3s ease-in-out;
+}
+.contacts-wrapper .social a i:hover {
+  color: #dfb15b;
+}
 .contacts-wrapper .social a:first-child {
   margin-left: 0px;
 }
