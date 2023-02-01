@@ -51,7 +51,9 @@
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
 }
-
+.blog-container .blog-card:hover {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
 .blog-container .blog-card:last-child {
   margin-right: 0px;
 }
