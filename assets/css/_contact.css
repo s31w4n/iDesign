@@ -48,9 +48,16 @@
 .contacts-wrapper .social a i {
   transition: all 0.3s ease-in-out;
 }
-.contacts-wrapper .social a i:hover {
-  color: #dfb15b;
+.contacts-wrapper .social > a:first-child :hover{
+  color: #1777f2;
 }
+.contacts-wrapper .social > a:nth-child(2) :hover {
+  color: #ff0100;
+}
+.contacts-wrapper .social > a:nth-child(3) :hover {
+  color: #1da1f2;
+}
+
 .contacts-wrapper .social a:first-child {
   margin-left: 0px;
 }
