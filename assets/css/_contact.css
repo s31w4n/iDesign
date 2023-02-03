@@ -57,7 +57,12 @@
 .contacts-wrapper .social > a:nth-child(3) :hover {
   color: #1da1f2;
 }
-
+.contacts-wrapper .social > a:nth-child(4) :hover {
+  color: #f70162;
+}
+.contacts-wrapper .social > a:last-child :hover {
+  color: #0b66c2;
+}
 .contacts-wrapper .social a:first-child {
   margin-left: 0px;
 }
