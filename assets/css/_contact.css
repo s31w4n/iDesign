@@ -48,7 +48,7 @@
 .contacts-wrapper .social a i {
   transition: all 0.3s ease-in-out;
 }
-.contacts-wrapper .social > a:first-child :hover{
+.contacts-wrapper .social > a:first-child :hover {
   color: #1777f2;
 }
 .contacts-wrapper .social > a:nth-child(2) :hover {
