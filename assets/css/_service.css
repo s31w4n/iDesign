@@ -71,9 +71,11 @@
   background-color: #f3f6ff;
   padding: 30px 0px;
   width: 25%;
+  transition: box-shadow 0.3s ease-in-out;
 }
 .service-item:hover {
   cursor: pointer;
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
 }
 .service-item h1 img {
   width: 100%;
