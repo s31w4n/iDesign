@@ -2,14 +2,13 @@
 .service-container {
   width: 100%;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
   margin-bottom: 100px;
 }
 .service {
   width: 35%;
   margin-left: 2.5%;
+  align-self: center;
 }
 .service h6 {
   color: #dfb15b;
@@ -39,6 +38,7 @@
   font-weight: 400;
   margin-bottom: 30px;
   font-size: 18px;
+  letter-spacing: .5px;
 }
 .service .btn {
   width: 150px;
@@ -56,7 +56,7 @@
   cursor: pointer;
 }
 .service-items {
-  min-height: 500px;
+  align-self: center;
   width: 60%;
   display: flex;
   flex-direction: row;
@@ -71,7 +71,7 @@
   align-items: center;
   background-color: #f3f6ff;
   padding: 30px 0px;
-  width: 25%;
+  width: 30%;
   transition: box-shadow 0.3s ease-in-out;
 }
 .service-item:hover {
@@ -86,8 +86,8 @@
 .service-item .header {
   width: 100%;
   border-top: 1px solid #f8e0b8;
-  padding: 10px 0px;
-  text-align: center;
+  padding: 10px 10px;
+  text-align: left;
 }
 
 .service-item .header i {
@@ -104,59 +104,41 @@
 }
 .service-items .service-item p {
   color: #777777;
-  text-align: center;
-  width: 70%;
-  line-height: 1.8;
+  width: 98%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding: 0 10px;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1200px) {
   .service-container {
-    display: block;
     margin-bottom: 10px;
   }
   .service {
     width: 90%;
     margin-left: 5%;
-    height: 250px;
   }
   .service-items {
     width: 90%;
-    margin-left: 5%;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 2.5%;
+    margin-bottom: 50px;
   }
   .service-item {
     width: 30%;
   }
 }
-@media screen and (max-width: 870px) {
-  .service-item p {
-    display: none;
-  }
-}
-@media screen and (max-width: 800px) {
-  .service .service-title {
-    font-size: 22px;
-  }
-  .service-item h1 img {
-    width: 80px;
-    height: 80px;
-  }
-}
-@media screen and (max-width: 675px) {
-  .service-items {
-    width: 96%;
-    margin-left: 2%;
-    margin-right: 2% !important;
-  }
-  .service-item h3 {
-    font-size: 16px;
+@media screen and (max-width: 780px) {
+  .service-item  {
+    width: 45%;
   }
 }
 @media screen and (max-width: 590px) {
-  .service {
-    margin-bottom: 20px;
+  .service-items {
+    margin-bottom: 50px;
   }
-  .service-item .header h3,
-  i {
-    font-size: 10px;
-  }
+.service-item {
+  width: 90%;
 }
+} 
