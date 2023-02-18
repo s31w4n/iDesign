@@ -61,6 +61,9 @@
 .testimonial-left .test-info .test-info-desc i {
   color: #777777;
 }
+.testimonial-left p {
+  width: 90%;
+}
 .testimonial-left .btn {
   width: 150px;
   padding: 15px 8px;

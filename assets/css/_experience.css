@@ -48,6 +48,9 @@
   text-transform: uppercase;
   margin: 20px 0;
 }
+.exp-cap p {
+  width: 80%;
+}
 .exp-cap h1.title-exp {
   color: #252531;
   font-size: 28px;
@@ -132,6 +135,9 @@
   }
   .exp-cap .exp-icon img {
     margin-right: 10px;
+  }
+  .exp-cap p {
+    width: 100%;
   }
   .exp h1 {
     font-size: 30px !important;
