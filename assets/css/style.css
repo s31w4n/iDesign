@@ -25,3 +25,6 @@ a {
 body {
   font-family: "montserrar", sans-serif;
 }
+p {
+  letter-spacing: 0.5px;
+}
