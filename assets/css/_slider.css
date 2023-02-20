@@ -16,6 +16,7 @@
 .mySlides img {
   width: 100%;
   height: 100%;
+  display: block;
   filter: brightness(50%);
 }
 /* Hide the images by default */
