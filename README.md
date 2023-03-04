@@ -1,2 +1,6 @@
-## iDesign
-### This is My first Project and i want to expand it during learning new technologies.
+### iDesign
+####Steps
+- Use Modern CSS
+- Restructure HTML
+- Use JavaScript to add more animations and functionality
+- Redesign 
